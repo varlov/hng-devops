@@ -5,7 +5,7 @@ const PORT = process.env.PORT || 3000;
 const server = http.createServer((req, res) => {
   if (req.url === "/") {
     res.writeHead(200, { "Content-Type": "text/html" });
-    res.end("<h1>your-hng-username</h1>");
+    res.end("<h1>ladevop</h1>");
   }
 
   else if (req.url === "/api") {
@@ -13,7 +13,7 @@ const server = http.createServer((req, res) => {
     res.end(JSON.stringify({
       message: "HNGI14 Stage 1",
       track: "DevOps",
-      username: "your-hng-username"
+      username: "ladevop"
     }));
   }
 
